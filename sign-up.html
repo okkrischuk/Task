@@ -1,0 +1,70 @@
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Вход Hotels24.ua</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <header>
+        <nav class="btn nav-panel">
+            <div class="btn btn_back">
+                <a href="#" class="arrow left"> </a>
+            </div>
+        </nav>
+    </header>
+    <main class="vertical-aligner container clearfix">
+               <div class="logo">
+                   <div class="vertical-aligner">
+                    <img src="img/logo.png">
+                </div>
+           </div>
+           <div class="form-msg">
+<!--                   Неверно указан логин или пароль!-->
+           </div>
+        <div class="box_signUp">
+                <form class="form form_signUp" action="#" method="post">
+                   <div class="row">
+                       <div class="input-wrapper field_name">
+                           <input type="text" name="name" class="field " placeholder="Имя" required>
+                       </div>
+                       <div class="input-wrapper field_surname">
+                           <input type="text" name="surname" class="field " placeholder="Фамилия" required> 
+                       </div>
+                   </div>
+                    <div class="row">
+                       <div class="input-wrapper _ivalid">
+                           <input type="text" name="login" class="field" placeholder="Логин" required>
+                       </div>
+                        
+                    </div>
+                    <div class="row">
+                       <div class="input-wrapper">
+                           <input type="text" name="email" class="field" placeholder="Email" required>
+                       </div>
+                        
+                    </div>
+                    <div class="row">
+                       <div class="input-wrapper">
+                           <input type="password" name="password" class="field" placeholder="Пароль" required>
+                       </div>
+                    </div>
+                    <div class="row _extended">
+                       <div class="input-wrapper field_phone">
+                           <input type="tel" name="phone" class="field " placeholder="380" readonly>
+                       </div>
+                      <div class="input-wrapper field_phoneEnter">
+                           <input type="tel" name="phone" class="field " placeholder="Телефон" required>
+                       </div>
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="remember-me" name="remember" class="checkbox" checked>
+                        <label for="remember-me" class="remember-me"> Запомнить меня </label>
+                        <a href="#" class="forgot-password"> Забыли пароль?</a>
+                    </div>
+                </form>
+                <a href="#" class="btn btn_wide btn_signUp"> Зарегистрироваться</a>
+        </div>
+    </main>
+</body> 
+</html>

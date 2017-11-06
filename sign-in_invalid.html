@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Вход Hotels24.ua</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="btn nav-panel">
+            <div class="btn btn_back">
+                <a href="#" class="arrow left"> </a>
+            </div>
+        </nav>
+    </header>
+    <main class="vertical-aligner container clearfix">
+        <div class="logo">
+            <img class="logo" src="img/logo.png">
+        </div>
+        <div class="form-msg form-msg-error">
+            Неправильно указан логин или пароль!
+        </div>
+        <div class="box_signIn">
+            <form class="form_signIn" action="#" method="post">
+                <div class="row">
+                    <input type="text" name="name" class="field" placeholder="Логин или Email" required>
+                </div>
+                <div class="row _extended">
+                    <input type="password" name="password" class="field" placeholder="Пароль" required>
+                </div>
+                <div class="row">
+                    <input type="checkbox" id="remember-me" name="remember" class="checkbox" checked>
+                    <label for="remember-me" class="remember-me"> Запомнить меня </label>
+                    <a href="#" class="forgot-password"> Забыли пароль?</a>
+                </div>
+                <input type="submit" class="btn btn_wide btn_signIn" value="Войти" />
+            </form>
+
+            <p class="separator line one-line">или</p>
+            <a href="#" class="btn btn_wide btn_signUp"> Зарегистрироваться</a>
+        </div>
+    </main>
+</body>
+
+</html>
